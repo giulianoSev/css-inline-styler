@@ -1,5 +1,5 @@
 {
-  "name": "css-inle-styler",
+  "name": "css-inline-styler",
   "version": "1.0.0",
   "description": "A styler for CSS",
   "main": "dist/index.js",
