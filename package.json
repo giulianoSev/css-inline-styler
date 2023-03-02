@@ -1,6 +1,6 @@
 {
   "name": "css-inline-styler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A styler for CSS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
