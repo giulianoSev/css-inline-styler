@@ -2,8 +2,8 @@
   "name": "css-inline-styler",
   "version": "1.0.4",
   "description": "A styler for CSS",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/styler.js",
+  "types": "dist/styler.d.ts",
   "bin": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && tsc"
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "css-inline-styler": "^1.0.1",
+    "css-inline-styler": "^1.0.4",
     "postcss": "^8.4.21"
   },
   "devDependencies": {

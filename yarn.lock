@@ -147,6 +147,14 @@ css-inline-styler@^1.0.1:
   dependencies:
     postcss "^8.4.21"
 
+css-inline-styler@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/css-inline-styler/-/css-inline-styler-1.0.4.tgz#2d200fa953fb0f0ae590cb5f7b8628d301ae2f91"
+  integrity sha512-Nm3CACKaZfiXBWABQ5uABnEJvQyTOTNEODFsYV3dH7T0vO5xJo8b4CQDiEol95+yPRmkDfxhlFfmfCfV8fYLaw==
+  dependencies:
+    css-inline-styler "^1.0.1"
+    postcss "^8.4.21"
+
 diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
