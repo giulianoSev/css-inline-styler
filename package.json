@@ -1,6 +1,6 @@
 {
   "name": "css-inline-styler",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A styler for CSS",
   "main": "dist/styler.js",
   "types": "dist/styler.d.ts",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "css-inline-styler": "^1.0.4",
+    "css-inline-styler": "^1.0.6",
     "postcss": "^8.4.21"
   },
   "devDependencies": {

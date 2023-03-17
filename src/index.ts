@@ -1,8 +1,28 @@
+#!/usr/bin/env node
+
 import { readFileSync, writeFileSync } from 'fs';
-import { getResult } from './styler';
+import { getStyledCss } from './styler';
 
-const file = readFileSync(process.argv[2]);
-const result = getResult(file.toString());
+const main = (...args: string[]) => {
+  for (const arg of args) {
+    const file = readFileSync(arg);
+    const result = getStyledCss(file.toString());
 
-writeFileSync(process.argv[2], result);
-console.log('Done');
+    writeFileSync(arg, result);
+    console.log(`${arg} edited`);
+  }
+};
+
+export default main;
+
+if (typeof require === 'function' && typeof module === 'object' && require.main === module) {
+  const args = process.argv.slice(2);
+  try {
+    main(...args);
+  } catch (error) {
+    console.error(error);
+    process.exit(1);
+  }
+
+  process.exit(0);
+}
